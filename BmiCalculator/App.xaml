@@ -1,0 +1,35 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BmiCalculator"
+             x:Class="BmiCalculator.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <Style x:Key="LabelRegularStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="FontFamily" Value="HindiRegular"/>
+                <Setter Property="TextColor" Value="#90919F"/>
+            </Style>
+            
+            <Style x:Key="LabelBoldStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="60"/>
+                <Setter Property="FontFamily" Value="PassionOneRegular"/>
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+            
+            <Style x:Key="FrameTitleStyle" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="#1d1e31"/>
+                <Setter Property="BorderColor" Value="#1d1e31"/>
+                <Setter Property="CornerRadius" Value="15"/>
+                <Setter Property="Padding" Value="15"/>
+            </Style>
+            
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
